@@ -25,6 +25,13 @@ When("the mandatory field are entered and InContext is selected", () => {
 });
 //Enter Fields and Select InContext as option ScenarioEnds
 
+//Redirect option is selected and verify me button is clicked Scenario
+When("redirect option is selected and verify me button is clicked", () => {
+  VerificationUI.checkRedirect();
+  VerificationUI.clickVerifyMeButton();
+});
+//Redirect option is selected and verify me button is clicked Scenario Ends
+
 //Enter the mandatroy fileds and select Redirect as Option Scenario
 When("the mandatory field are entered and Redirect is selected", () => {
   VerificationUI.fillFiledsAndSelectInContext();

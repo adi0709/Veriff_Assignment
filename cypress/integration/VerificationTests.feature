@@ -12,6 +12,11 @@ Feature: Tests for the configuration of the verification flow
         When the mandatory field are entered and InContext is selected
         Then the verification dialogue box appears
 
+    Scenario: Redirect option is selected and verify me button is clicked
+        Given the platform is opened
+        When redirect option is selected and verify me button is clicked
+        Then the page is redirected to the verification page
+
     Scenario: Enter the mandatroy fileds and select Redirect as Option
         Given the platform is opened
         When the mandatory field are entered and Redirect is selected

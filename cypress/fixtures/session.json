@@ -1,0 +1,21 @@
+{
+    "name": "session_started",
+    "experiments": [
+        {
+            "feature_flag_key": "auto_selfie_temp_web",
+            "feature_flag_variation": false
+        },
+        {
+            "feature_flag_key": "sdb_integration_eu_temp_web",
+            "feature_flag_variation": true
+        },
+        {
+            "feature_flag_key": "sdb_integration_barcode_eu_temp_web",
+            "feature_flag_variation": false
+        },
+        {
+            "feature_flag_key": "landscape_flow_temp_web",
+            "feature_flag_variation": "disabled"
+        }
+    ]
+}

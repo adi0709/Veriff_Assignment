@@ -1,5 +1,5 @@
 {
-  "testFiles": "**/*.feature",
+   "testFiles": "**/*.feature",
     "chromeWebSecurity": false,
     "baseUrl": "https://demo.saas-3.veriff.me/",
     "viewportWidth": 1920,
