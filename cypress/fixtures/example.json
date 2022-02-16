@@ -1,0 +1,20 @@
+{
+    "Name":"Aditya",
+    "Connection":"keep-alive",
+    "sec_ch_ua":"' Not A;Brand';v='99', 'Chromium';v='98', 'Google Chrome';v='98'",
+    "sec_ch_ua_mobile":"?0",
+    "User_Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+    "sec_ch_ua_platform":"macOS",
+    "Accept":"*/*",
+    "Sec_Fetch_Site":"same-origin",
+    "Sec_Fetch_Mode":"cors",
+    "Sec_Fetch_Dest":"empty",
+    "Referer":"https://magic.saas-3.veriff.me/v/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiZjMxOTUzMjgtMzBjMy00Y2ZjLWJkNGItNWZlYWQ1MmFjY2MxIiwiaWF0IjoxNjQ0OTQwNjc3fQ.mRR21BJcWymCKsq5OUSiEUAVfxi6q-CTRxniMQeE_Co?",
+    "Accept_Language":"en-GB,en-US;q=0.9,en;q=0.8",
+    "Cookie":"_ga=GA1.2.940759456.1644921051; _gid=GA1.2.1511895453.1644921051; FRONT-API-STICKY=1644921149.516.2218.783980; _gat_gtag_UA_73418811_10=1'",
+    "Accept_Encoding": "gzip, deflate, br",
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiZjMxOTUzMjgtMzBjMy00Y2ZjLWJkNGItNWZlYWQ1MmFjY2MxIiwiaWF0IjoxNjQ0OTQwNjc3fQ.mRR21BJcWymCKsq5OUSiEUAVfxi6q-CTRxniMQeE_Co",
+    "Content_Type": "application/json",
+    "X_Veriff_Platform": "web",
+    "If_None_Match": "W/'14e3-HHLXvvPorKq9QjZd6lIGlcJ0PfU'"
+ }

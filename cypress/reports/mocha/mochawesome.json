@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-16T10:54:06.520Z",
+    "end": "2022-02-16T10:54:25.383Z",
+    "duration": 18863,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c8f9bf51-1a4e-4c89-93d1-0887c53df191",
+      "title": "",
+      "fullFile": "cypress/integration/VerificationTests.feature",
+      "file": "cypress/integration/VerificationTests.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e3d3ea39-6e36-4446-a749-c462b509f356",
+          "title": "Tests for the configuration of the verification flow",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Click  Verify Me without filling any details",
+              "fullTitle": "Tests for the configuration of the verification flow Click  Verify Me without filling any details",
+              "timedOut": null,
+              "duration": 13033,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "565a6e9d-5c38-42f1-a977-14d7ba5cf1ff",
+              "parentUUID": "e3d3ea39-6e36-4446-a749-c462b509f356",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Enter the mandatroy fileds and select InContext as Option",
+              "fullTitle": "Tests for the configuration of the verification flow Enter the mandatroy fileds and select InContext as Option",
+              "timedOut": null,
+              "duration": 2852,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d18acb33-1557-4cdf-9fa5-03fe5aebb365",
+              "parentUUID": "e3d3ea39-6e36-4446-a749-c462b509f356",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Enter the mandatroy fileds and select Redirect as Option",
+              "fullTitle": "Tests for the configuration of the verification flow Enter the mandatroy fileds and select Redirect as Option",
+              "timedOut": null,
+              "duration": 2751,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c1d2be36-cdb0-49cb-8c5a-4df10fd385bf",
+              "parentUUID": "e3d3ea39-6e36-4446-a749-c462b509f356",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "565a6e9d-5c38-42f1-a977-14d7ba5cf1ff",
+            "d18acb33-1557-4cdf-9fa5-03fe5aebb365",
+            "c1d2be36-cdb0-49cb-8c5a-4df10fd385bf"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18636,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

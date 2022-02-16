@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-02-16T10:43:37.316Z",
+    "end": "2022-02-16T10:43:43.274Z",
+    "duration": 5958,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "36f14557-bc72-44b6-872b-3c2c153fbc0a",
+      "title": "",
+      "fullFile": "cypress/integration/VerificationTests/VerificationTests.spec.js",
+      "file": "cypress/integration/VerificationTests/VerificationTests.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 5873,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "throw err;",
+          "err": {
+            "message": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > Given is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > Given is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at Object.4.../PageObjects/Requests (https://demo.saas-3.veriff.me/__cypress/tests?p=cypress/integration/VerificationTests/VerificationTests.spec.js:233:1)\n    at o (https://demo.saas-3.veriff.me/__cypress/tests?p=cypress/integration/VerificationTests/VerificationTests.spec.js:1:265)\n    at r (https://demo.saas-3.veriff.me/__cypress/tests?p=cypress/integration/VerificationTests/VerificationTests.spec.js:1:431)\n    at eval (https://demo.saas-3.veriff.me/__cypress/tests?p=cypress/integration/VerificationTests/VerificationTests.spec.js:1:460)\n    at eval (<anonymous>)",
+            "diff": null
+          },
+          "uuid": "f607a59f-f962-4352-85d7-178a7ba48b55",
+          "parentUUID": "36f14557-bc72-44b6-872b-3c2c153fbc0a",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "f607a59f-f962-4352-85d7-178a7ba48b55"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 5873,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
